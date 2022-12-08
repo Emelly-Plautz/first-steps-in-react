@@ -9,21 +9,24 @@ section.repository-list {
         list-style: none;
 
         li {
+            background: linear-gradient(309.28deg, #FDE3E3 3.45%, #DD4F4F 97.64%);
             & + li{
                 margin-top: 28px;
             }
 
             p {
                 font-size: 14px;
-                color: #444;
+                color: rgb(46, 45, 45);
                 margin-top: 8px;
             }
 
             a {
                 display: inline-block;
-                margin-top: 16px;
+                margin-top: 10px;
                 text-decoration: none;
-                color: #8257e6;
+                color: #6949b4;
+                background: rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
             }
         }
     }
